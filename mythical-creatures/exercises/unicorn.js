@@ -14,12 +14,7 @@ class Unicorn {
   says(says) {
     return `**;* ${says} *;**`
   }
-}
-
-var unicorn = new Unicorn('Louisa');
-
-console.log(unicorn.isWhite());
-
+};
 
 
 module.exports = Unicorn;
