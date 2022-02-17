@@ -107,8 +107,6 @@ describe('Medusa', function() {
 
     var person = medusa.gazeAtVictim(victim4);
 
-    console.log(person);
-
     assert.instanceOf(person, Person);
     assert.equal(person.name, 'Pam');
   });
