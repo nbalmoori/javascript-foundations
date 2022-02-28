@@ -62,9 +62,6 @@ describe('Bag', function () {
 
     bag.fill(candy);
 
-    // console.log(bag.candies);
-    // console.log(contains('Lindt Chocolate'));
-
     assert.equal(bag.contains('Lindt Chocolate'), true);
     assert.equal(bag.contains('Hershey\'s Kisses'), false);
   });

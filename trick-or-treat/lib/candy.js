@@ -1,7 +1,7 @@
 class Candy {
-  constructor (candyType) {
-    this.type = candyType;
+  constructor(type) {
+    this.type = type;
   }
-};
+}
 
 module.exports = Candy;

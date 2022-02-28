@@ -1,5 +1,7 @@
 class Costume {
-  constructor() {
-    
+  constructor(style) {
+    this.style = style;
   }
 }
+
+module.exports = Costume;
